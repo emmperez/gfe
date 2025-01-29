@@ -1,0 +1,84 @@
+@font-face {
+    font-family: "Telegraf";
+    src: url("/fonts/PPTElegraf-Regular.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: "Telegraf", sans-serif !important;
+}
+
+html {
+    background: rgb(249,250,251);
+    background: -moz-linear-gradient(180deg, rgba(249,250,251,1) 0%, rgba(210,214,219,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(249,250,251,1) 0%, rgba(210,214,219,1) 100%);
+    background: linear-gradient(180deg, rgba(249,250,251,1) 0%, rgba(210,214,219,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f9fafb",endColorstr="#d2d6db",GradientType=1);
+}
+
+.res {
+    width: 100%;
+    padding-right: 16px; /* Default gutter */
+    padding-left: 16px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.res__nested {
+    width: 100%;
+    padding-right: 16px; /* Default gutter */
+    padding-left: 16px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  /* Responsive max-width breakpoints */
+  @media (min-width: 576px) {
+    .res__nested {
+      max-width: 540px;
+    }
+  }
+  @media (min-width: 768px) {
+    .res__nested {
+      max-width: 720px;
+    }
+  }
+  @media (min-width: 992px) {
+    .res__nested {
+      max-width: 960px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .res__nested {
+      max-width: 1140px;
+    }
+  }
+  @media (min-width: 1400px) {
+    .res__nested {
+      max-width: 1320px;
+    }
+}
+
+h1 {
+  font-size: 3.75rem !important;
+  margin-bottom: 24px !important;
+  color: #171717;
+}
+
+p.norm {
+  font-size: 1rem !important;
+  margin-bottom: 8px !important;
+}
+
+.neu-900 {
+  color: #171717;
+}
+
+.neu-600 {
+  color: #525252;
+}
+
+.neu-000 {
+  color: #fff;
+}

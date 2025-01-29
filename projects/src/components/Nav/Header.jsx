@@ -1,18 +1,17 @@
-import { useState } from 'react';
 import './Header.css'
-import { Outlet, Link } from 'react-router-dom';
+import { Outlet, Link } from 'react-router-dom'
 
 const Header = () => {
   return (
     <>
-      <header>
+      <header className='header res'>
         <nav>
-          <Link to="/">ui__components</Link>
-          <Link to="/components">components</Link>
+          <Link className='neu-900' to="/">ui__components</Link>
+          <Link className='neu-900' to="/components">components</Link>
         </nav>
       </header>
       <Outlet />
     </>
   )
 };
-export default Header;
+export default Header

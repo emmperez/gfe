@@ -8,6 +8,7 @@ const Header = () => {
         <nav>
           <Link className='neu-900' to="/">ui__components</Link>
           <Link className='neu-900' to="/components">components</Link>
+          <Link className='neu-900'>grid</Link>
         </nav>
       </header>
       <Outlet />
